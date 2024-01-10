@@ -34,3 +34,12 @@ java -cp path\to\classes ...
 java -cp path\to\lib1.jar ....
 
 java -cp path\to\lib2.zip ...
+
+
+
+注意：Go函数或方法允许返回多个值，按照惯例，可以使用最后一个返回值作为错误信息
+
+#### CompositeEntry
+
+compositeEntry由更小的Entry组成，正好可以表示成[]Entry,在Go语言中，数组属于比较低层的数据结构很少直接使用。
+
