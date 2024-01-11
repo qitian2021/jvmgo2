@@ -43,6 +43,27 @@ java -cp path\to\lib2.zip ...
 
 compositeEntry由更小的Entry组成，正好可以表示成[]Entry,在Go语言中，数组属于比较低层的数据结构很少直接使用。大部分情况下，使用更便利的slice类型。
 
+#### ch01代码测试结果
 
+![ch01测试代码结果](D:\go\workspace\src\jvmgo\imgdata\ch01测试代码结果.png)
 
-第二章：测试代码 ：直接进入
+第二章:项目目录结构为：
+
+![ch02项目结构](D:\go\workspace\src\jvmgo\imgdata\ch02项目结构.png)
+
+测试代码 ：CMD直接进入你的ch02目录下，执行go install 
+
+然后你的bin 目录下会生成 ch02.exe ,CMD 进入你的bin目录下 使用命令： 
+
+```powershell
+.\ch02.exe -Xjre "D:\java\jdk1.8.0_202\jre" java.lang.Object 
+```
+
+测试结果：
+
+![ch02测试结果](D:\go\workspace\src\jvmgo\imgdata\ch02测试结果.png)
+
+### 第三章： 解析class文件
+
+Java虚拟机规范中所指的class文件，并非特指位于磁盘中的.class文件,而是泛指任何格式符合规范的class数据
+
