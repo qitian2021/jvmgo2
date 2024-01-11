@@ -38,7 +38,7 @@ func (self *ClassReader) readUint16s() []uint16 { // 读取uint16表，表的大
 	}
 	return s
 }
-func (self *ClassReader) readBytes(length uint32) []byte { // 读取指定数量的字节
+func (self *ClassReader) readBytes(n uint32) []byte { // 读取指定数量的字节
 	bytes := self.data[:n]
 	self.data = self.data[n:]
 	return bytes
