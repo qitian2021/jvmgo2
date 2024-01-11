@@ -1,4 +1,4 @@
-package classpath
+package main
 
 import "flag"
 import "fmt"

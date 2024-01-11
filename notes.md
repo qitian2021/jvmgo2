@@ -41,5 +41,8 @@ java -cp path\to\lib2.zip ...
 
 #### CompositeEntry
 
-compositeEntry由更小的Entry组成，正好可以表示成[]Entry,在Go语言中，数组属于比较低层的数据结构很少直接使用。
+compositeEntry由更小的Entry组成，正好可以表示成[]Entry,在Go语言中，数组属于比较低层的数据结构很少直接使用。大部分情况下，使用更便利的slice类型。
 
+
+
+第二章：测试代码 ：直接进入
